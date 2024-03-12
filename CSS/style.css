@@ -1,0 +1,48 @@
+/* --------------------------------------------------------------------- */
+/* ------------------------------ general ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faebd7;
+    height: 200vh;
+
+    /* the animation problem with width and height */
+    /* overflow: hidden; */
+}
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ content ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+.container-animation {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-animation p {
+    font-size: 100px;
+    font-weight: bolder;
+    color: brown;
+    letter-spacing: 11px;
+
+    padding: 10px 30px;
+
+    border-radius: 71px;
+    background: linear-gradient(145deg, #fffbe6, #e1d4c2);
+    box-shadow: 9px 9px 18px #ada294,
+        -9px -9px 18px #ffffff;
+}
+
+
+.test p{
+    margin-top: 200px;
+    font-weight: 200px;
+}
